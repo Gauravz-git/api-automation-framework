@@ -215,7 +215,7 @@ After execution:
 
 ## 👨‍💻 Author
 
-Rohit Chaudhari
+Gaurav Chaudhari
 Python | API Automation | Test Architecture Enthusiast
 
 ---
@@ -223,3 +223,4 @@ Python | API Automation | Test Architecture Enthusiast
 ## 📜 License
 
 This project is intended for educational and demonstration purposes.
+
