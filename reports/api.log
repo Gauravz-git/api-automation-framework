@@ -6,3 +6,23 @@
 2026-03-03 15:45:09,425 - INFO - Response Status → 200
 2026-03-03 15:46:00,116 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
 2026-03-03 15:46:00,357 - INFO - Response Status → 200
+2026-03-03 16:41:50,615 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:41:51,205 - INFO - Response Status → 200
+2026-03-03 16:41:51,213 - INFO - POST Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:41:51,213 - INFO - Payload → {'name': 'Rohit', 'email': 'Automation Engineer'}
+2026-03-03 16:41:52,333 - INFO - Response Status → 201
+2026-03-03 16:43:25,817 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:43:26,401 - INFO - Response Status → 200
+2026-03-03 16:43:26,406 - INFO - POST Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:43:26,406 - INFO - Payload → {'name': 'Gaurav', 'email': 'Automation Engineer'}
+2026-03-03 16:43:27,151 - INFO - Response Status → 201
+2026-03-03 16:46:21,027 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:46:21,543 - INFO - Response Status → 200
+2026-03-03 16:46:21,547 - INFO - POST Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:46:21,547 - INFO - Payload → {'name': 'Gaurav', 'job': 'Automation Engineer'}
+2026-03-03 16:46:22,808 - INFO - Response Status → 201
+2026-03-03 16:49:22,279 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:49:22,918 - INFO - Response Status → 200
+2026-03-03 16:49:22,921 - INFO - POST Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 16:49:22,921 - INFO - Payload → {'name': 'Gaurav', 'job': 'Automation Engineer'}
+2026-03-03 16:49:24,056 - INFO - Response Status → 201

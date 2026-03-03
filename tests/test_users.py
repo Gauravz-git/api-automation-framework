@@ -23,12 +23,12 @@ class TestUsers(BaseTest):
         assert "name" in data[0]
 
     def test_create_user(self):
-        response = self.users_api.create_user("Rohit", "Automation Engineer")
+        response = self.users_api.create_user("Gaurav", "Automation Engineer")
 
         self.validate_status_code(response, 201)
 
         data = response.json()
 
-        assert data["name"] == "Rohit"
+        assert data["name"] == "Gaurav"
         assert data["job"] == "Automation Engineer"
         assert "id" in data

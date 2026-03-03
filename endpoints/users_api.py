@@ -9,10 +9,10 @@ class UsersAPI:
     def get_users(self):
         return self.client.get("/users")
 
-    def create_user(self, name, email):
+    def create_user(self, name, job):
         payload = {
             "name": name,
-            "email": email
+            "job": job
         }
         return self.client.post("/users", payload=payload)
 
