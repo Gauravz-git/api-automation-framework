@@ -1,0 +1,8 @@
+2026-03-03 15:35:57,603 - INFO - GET Request → https://reqres.in/api/users?page=2
+2026-03-03 15:35:57,889 - INFO - Response Status → 403
+2026-03-03 15:39:41,645 - INFO - GET Request → https://reqres.in/api/users?page=2
+2026-03-03 15:39:42,060 - INFO - Response Status → 401
+2026-03-03 15:45:09,145 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 15:45:09,425 - INFO - Response Status → 200
+2026-03-03 15:46:00,116 - INFO - GET Request → https://jsonplaceholder.typicode.com/users
+2026-03-03 15:46:00,357 - INFO - Response Status → 200
