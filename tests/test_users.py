@@ -1,7 +1,8 @@
 import pytest
 from endpoints.users_api import UsersAPI
 from core.base_test import BaseTest
-
+from schemas.create_user_schema import create_user_schema
+from utils.helpers import validate_schema
 
 class TestUsers(BaseTest):
 
@@ -29,6 +30,4 @@ class TestUsers(BaseTest):
 
         data = response.json()
 
-        assert data["name"] == "Gaurav"
-        assert data["job"] == "Automation Engineer"
-        assert "id" in data
+        validate_schema(data, create_user_schema)
